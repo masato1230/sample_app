@@ -6,6 +6,14 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     @base_title = "Ruby on Rails Tutorial Sample App"
   end
   
+<<<<<<< HEAD
+=======
+  test "should get root" do
+    get root_url
+    assert_response :successra
+  end
+  
+>>>>>>> ac148d819712087f4b39aabd47ad581e8229710c
   test "should get home" do
     get static_pages_home_url
     assert_response :success
